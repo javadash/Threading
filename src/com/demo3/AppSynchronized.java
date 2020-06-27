@@ -1,5 +1,12 @@
 package com.demo3;
 
+
+// Synchronized - you dont need to declare a variable as volative and running something in synchronized block guarantees the variable is visible to all threads
+// Every object in java has an intrinsic lock - monitor lock
+// To call a method synchronized - you have to aquire the intrinsic lock - only on threead can aquire the in intrinisc lock at a time
+
+// Join method on thread is used to wait for the process/thread to finish before you can can get meaningful results and continue processing
+
 public class AppSynchronized {
 	private int count = 0;
 	
